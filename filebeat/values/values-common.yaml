@@ -1,0 +1,6 @@
+daemonset:
+  enabled: false
+deployment:
+  enabled: true
+replicas: 1
+fullnameOverride: "filebeat"
