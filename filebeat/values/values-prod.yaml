@@ -1,2 +1,5 @@
-labels:
-  app: myapp
+daemonset:
+  enabled: false
+deployment:
+  enabled: true
+  replicas: 3
