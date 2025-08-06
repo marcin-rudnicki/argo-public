@@ -1,8 +1,8 @@
 # Disable non-DaemonSet deployments (only DaemonSet makes sense for node log collection)
 daemonset:
-  enabled: true
-deployment:
   enabled: false
+deployment:
+  enabled: true
 
 # Filebeat configuration
 filebeatConfig:
