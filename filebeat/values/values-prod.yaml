@@ -3,3 +3,4 @@ daemonset:
 deployment:
   enabled: true
 replicas: 3
+fullnameOverride: "filebeat"
