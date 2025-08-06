@@ -2,4 +2,4 @@ daemonset:
   enabled: false
 deployment:
   enabled: true
-  replicas: 3
+replicas: 3
